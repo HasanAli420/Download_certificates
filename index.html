@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <section class="max-w-[1460px] bg-[#f9fafe]">
+        <div class="flex justify-between items-center">
+            <div class="capitalize">
+                <h1 class="text-[#162849] text-[35px]">download certificates</h1>
+            </div>
+            <div class="btn">
+                <button class="bg-[#2685DD] mr-[29px] py-[22px] px-[36px] text-white text-[20px] rounded-[8px]" type="button">Print</button>
+
+                <button class="bg-[#7B29E4] mr-[29px] py-[22px] px-[26px] text-white text-[20px] rounded-[8px]" type="button">Download</button>
+
+                <button class="bg-[#2685DD] mr-[29px] py-[22px] px-[26px] text-white text-[20px] rounded-[8px]" type="button">Email Certificates</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
